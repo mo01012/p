@@ -75,7 +75,7 @@
         padding: 0;
     }
     
-    .navbar img {
+    .navbar .logo {
         width: 180px;
         padding: 10px;
         margin-left: 10px;
@@ -262,30 +262,31 @@
         height: 50px;
         font-size: 20px
     }
-    /* @media screen and (max-width: 600px) {
-        .articles .owl-nav {
-            right: 80%;
-            top: -25%;
-        }
-    } */
     
     @media screen and (max-width: 750px) {
         .articles .owl-nav {
-            right: 80%;
-            top: -25%;
+            right: 75%;
+            top: -27%;
+        }
+    }
+    
+    @media screen and (max-width: 650px) {
+        .articles .owl-nav {
+            right: 75%;
+            top: -22%;
         }
     }
     
     @media screen and (max-width: 450px) {
-        .owl-nav {
-            top: -23%;
-            right: 75%
+        .articles .owl-nav {
+            top: -27%;
+            right: 65%
         }
     }
     
-    @media screen and (max-width: 320px) {
-        .owl-nav {
-            top: -25%;
+    @media screen and (max-width: 350px) {
+        .articles .owl-nav {
+            top: -30%;
             right: 65%
         }
     }
@@ -414,8 +415,8 @@
     
     .contact {
         background-image: url(../imgs/call.jpg);
-        background-size: 100%;
         background-repeat: no-repeat;
+        background-position: center;
     }
     
     .w4 {
@@ -428,6 +429,12 @@
     
     .colr {
         color: #4a4849;
+    }
+    
+    @media screen and (max-width:750px) {
+        .contact {
+            background-position-x: right;
+        }
     }
     /* end conect */
     /* start app */
@@ -478,6 +485,14 @@
         font-size: 20px;
     }
     
+    .resiz {
+        width: 50px;
+    }
+    
+    .h50 {
+        height: 50px;
+    }
+    
     @media screen and (max-width:750px) {
         footer {
             text-align: center;
@@ -486,7 +501,14 @@
     
     @media screen and (max-width:450px) {
         .img-weidth {
-            width: 200px;
+            width: 300px;
         }
     }
     /* end we-are page */
+    /* start asking page */
+    
+    .pagination {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    /* end asking page */
