@@ -1,8 +1,5 @@
 $(document).ready(function() {
-    $("a").on('click', function(event) {
-        $("li").removeClass('activ');
-        $(this).parent('div').parent('li').addClass('activ');
-    })
+
     $('.about-car').owlCarousel({
         rtl: true,
         margin: 10,
@@ -30,7 +27,6 @@ $(document).ready(function() {
         }
     })
     $('.foot').click(function(e) {
-        e.preventDefault();
         $(".foot").parent().removeClass('red');
         $(this).parent().addClass('red');
     })

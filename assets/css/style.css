@@ -449,6 +449,12 @@
         font-size: small;
     }
     
+    footer.footer ul {
+        width: 50%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    
     footer img:first-of-type {
         width: 150px;
     }
@@ -470,5 +476,17 @@
     
     .para-we-are {
         font-size: 20px;
+    }
+    
+    @media screen and (max-width:750px) {
+        footer {
+            text-align: center;
+        }
+    }
+    
+    @media screen and (max-width:450px) {
+        .img-weidth {
+            width: 200px;
+        }
     }
     /* end we-are page */
