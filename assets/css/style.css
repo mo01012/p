@@ -296,14 +296,6 @@
         width: 150px;
     }
     
-    @media screen and (max-width: 750px) {
-        input[type="text"],
-        ul.town li,
-        ul.blood li {
-            max-width: 150px;
-        }
-    }
-    
     button.select {
         background-color: #fff;
         border: none;
@@ -526,7 +518,7 @@
     }
     
     .w50 {
-        width: 40px;
+        width: 75px;
         padding: 2.5px;
     }
     
@@ -536,5 +528,9 @@
     
     textarea {
         height: 100px;
+    }
+    
+    input[type="submit"] {
+        height: 50px;
     }
     /* end call page */
