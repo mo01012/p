@@ -35,8 +35,8 @@
         box-shadow: 0px 20px 20px #eee;
     }
     
-    .phone-us {
-        height: auto;
+    .phone-us,
+    .phone- {
         background-color: #2d3e50;
         color: #d2d2d2;
         margin: auto;
@@ -358,15 +358,6 @@
         padding: 3.5rem;
     }
     
-    input[type="submit"] {
-        opacity: 0;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-    }
-    
     .sub {
         padding: 5px;
         background-color: #fff;
@@ -456,10 +447,6 @@
         padding: 20px;
     }
     
-    footer img:first-of-type {
-        width: 150px;
-    }
-    
     footer+footer {
         background-color: #000;
         color: #dadada;
@@ -524,3 +511,30 @@
         border: .25px solid #e9e9e9;
     }
     /* end request page */
+    /* start call page */
+    
+    .phone- {
+        height: 60px;
+    }
+    
+    .border-gray {
+        border: 1px solid #e9e9e9;
+    }
+    
+    .red-white {
+        color: #df221c;
+    }
+    
+    .w50 {
+        width: 40px;
+        padding: 2.5px;
+    }
+    
+    .heigh {
+        height: 40px;
+    }
+    
+    textarea {
+        height: 100px;
+    }
+    /* end call page */
