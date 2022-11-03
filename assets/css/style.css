@@ -18,6 +18,7 @@
         color: #fff;
         text-decoration: none;
         border-radius: 0%;
+        width: 200px;
     }
     
     a:hover,
@@ -295,14 +296,6 @@
         width: 150px;
     }
     
-    input[type="text"] {
-        border: none;
-        border-bottom-right-radius: 50rem;
-        border-top-right-radius: 50rem;
-        padding: 10px;
-        color: #bababa;
-    }
-    
     @media screen and (max-width: 750px) {
         input[type="text"],
         ul.town li,
@@ -362,6 +355,7 @@
     
     .circle {
         background-color: #f8f8f8;
+        padding: 3.5rem;
     }
     
     input[type="submit"] {
@@ -387,7 +381,7 @@
         color: #2d3e50;
         text-decoration: none;
         border-radius: 0%;
-        width: 150px;
+        width: 200px;
     }
     
     .snd-btn:hover,
@@ -512,3 +506,21 @@
         transform: translateX(-50%);
     }
     /* end asking page */
+    /* start request page */
+    
+    .color-1 {
+        background-color: #f4f4f4;
+        width: 35%;
+    }
+    
+    .color {
+        background-color: #f9f9f9;
+        border: 0ch;
+        margin-right: -5px;
+        width: 65%;
+    }
+    
+    .bord {
+        border: .25px solid #e9e9e9;
+    }
+    /* end request page */
