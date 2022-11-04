@@ -254,7 +254,7 @@
         position: absolute;
         display: inline-block;
         right: 85%;
-        top: -28%;
+        top: -27%;
         color: #d5d5d5;
     }
     
@@ -280,8 +280,8 @@
     
     @media screen and (max-width: 450px) {
         .articles .owl-nav {
-            top: -27%;
-            right: 65%
+            right: 75%;
+            font-size: 75px
         }
     }
     
@@ -347,7 +347,7 @@
     
     .circle {
         background-color: #f8f8f8;
-        padding: 3.5rem;
+        padding: 4rem;
     }
     
     .sub {
@@ -534,3 +534,21 @@
         height: 50px;
     }
     /* end call page */
+    /* start articles page */
+    
+    .haert {
+        width: calc(75% - 50px);
+    }
+    
+    .phone- h4:first-child {
+        position: relative;
+        top: -20%;
+    }
+    
+    .haert :first-child {
+        padding: 5px;
+        border: 2px solid #fff;
+        border-radius: 50%;
+        font-size: 30px;
+    }
+    /* end articles page */
